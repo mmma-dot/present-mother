@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+}
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: white;
+    color: #ff758c;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff758c;
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.heart-text {
+    font-size: 2em;
+    margin-top: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.gallery {
+    margin-top: 30px;
+}
+
+.gallery img {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
